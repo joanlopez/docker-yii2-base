@@ -21,12 +21,9 @@ RUN a2enmod rewrite
 RUN docker-php-ext-install intl \
     && docker-php-ext-install pdo_mysql \
     && docker-php-ext-install mbstring \
+    && docker-php-ext-install mcrypt \
     && docker-php-ext-install opcache \
     && docker-php-ext-install zip
-
-# Install mcrypt extension
-RUN pecl install mcrypt-1.0.1 \
-    && docker-php-ext-enable mcrypt
 
 RUN pecl install apcu-5.1.8 && echo extension=apcu.so > /usr/local/etc/php/conf.d/apcu.ini \
     && apt-get purge -y g++ \
