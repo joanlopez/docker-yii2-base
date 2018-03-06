@@ -3,8 +3,8 @@ Yii2 base image for dockerized Yii2 projects
 
 ## Supported tags and respective `Dockerfile` links
 
-- [`7.2.2-apache`, `latest` (*apache/Dockerfile*)](https://github.com/joanlopez/docker-yii2-base/blob/master/apache/7.2.2/Dockerfile)
-- [`7.1.15-apache` (*apache/Dockerfile*)](https://github.com/joanlopez/docker-yii2-base/blob/master/apache/7.1.15/Dockerfile)
+- [`7.2.2-apache`, `latest` (*apache/7.2.2/Dockerfile*)](https://github.com/joanlopez/docker-yii2-base/blob/master/apache/7.2.2/Dockerfile)
+- [`7.1.15-apache` (*apache/7.1.15/Dockerfile*)](https://github.com/joanlopez/docker-yii2-base/blob/master/apache/7.1.15/Dockerfile)
 
 Yii 2 Base
 ==========
